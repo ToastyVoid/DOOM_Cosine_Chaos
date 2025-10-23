@@ -1,0 +1,52 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -1,8 +1,8 @@
+ dnl Process this file with autoconf to produce a configure script.
+-AC_INIT([Chocolate Doom], [3.0.1], [https://github.com/chocolate-doom/chocolate-doom/issues], [chocolate-doom])
++AC_INIT([Cosine Chaos], [1.0], [https://github.com/chocolate-doom/chocolate-doom/issues], [cosine-chaos])
+ 
+-AC_CONFIG_SRCDIR([src/doom/d_main.c])
+-AC_CONFIG_HEADER([config.h])
++AC_CONFIG_SRCDIR([src/doom/d_main.c])
++AC_CONFIG_HEADER([config.h])
+ 
+ dnl Automake setup
+ AM_INIT_AUTOMAKE([1.11.1 foreign -Wall -Wno-portability tar-ustar])
+@@ -11,8 +11,8 @@
+ dnl i18n support
+ AC_DEFUN([AC_C_BIGENDIAN], [AC_C_BIGENDIAN])
+ 
+-PACKAGE_URL="https://www.chocolate-doom.org/"
+-PACKAGE_BUGREPORT="https://github.com/chocolate-doom/chocolate-doom/issues"
++PACKAGE_URL=""
++PACKAGE_BUGREPORT=""
+ 
+ dnl Checks for programs.
+ AC_PROG_CC
+@@ -26,7 +26,7 @@
+ 
+ dnl Feature test macros to expose POSIX/XSI functionality
+ AC_DEFINE([_XOPEN_SOURCE], [500], [Enable X/Open functionality])
+-AC_DEFINE([_GNU_SOURCE], [1], [Enable GNU functionality])
++AC_DEFINE([_GNU_SOURCE], [1], [Enable GNU functionality])
+ 
+ dnl Large file support
+ AC_SYS_LARGEFILE
+@@ -46,7 +46,7 @@
+ 
+ dnl Build up program list
+ PROGRAM_LIST=
+-PROGRAM_LIST="$PROGRAM_LIST chocolate-doom"
++PROGRAM_LIST="$PROGRAM_LIST cosine-chaos"
+ 
+ AC_CHECK_HEADERS([errno.h fcntl.h limits.h signal.h stddef.h stdint.h stdlib.h string.h sys/ioctl.h sys/time.h sys/types.h termios.h time.h unistd.h])
+ 
+@@ -58,7 +58,7 @@
+ 
+ dnl Add feature test for program binaries
+ for program in $PROGRAM_LIST; do
+-    if test x$program = x"chocolate-doom"; then
++    if test x$program = x"cosine-chaos"; then
+         AC_DEFINE([FEATURE_DOOM], [1], [Build Doom])
+     fi
+     if test x$program = x"chocolate-heretic"; then

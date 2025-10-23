@@ -1,0 +1,35 @@
+--- a/src/doom/Makefile.am
++++ b/src/doom/Makefile.am
+@@ -1,4 +1,4 @@
+-bin_PROGRAMS = chocolate-doom
++bin_PROGRAMS = cosine-chaos
+ 
+ if HAVE_WINDRES
+ ARCH_RC = $(PROGRAM)-res.rc
+@@ -6,7 +6,7 @@
+ ARCH_RC =
+ endif
+ 
+-chocolate_doom_SOURCES = \
++cosine_chaos_SOURCES = \
+         d_client.c \
+         d_net.c \
+         doomdef.c \
+@@ -57,7 +57,7 @@
+         m_argv.h \
+         m_bbox.h \
+         m_cheat.h \
+-        m_config.h \
++        m_config.h \
+         m_fixed.h \
+         m_misc.h \
+         m_random.h \
+@@ -115,7 +115,7 @@
+         wi_stuff.h \
+         w_wad.h \
+         z_zone.h
+-chocolate_doom_LDADD = $(LDADD) $(ARCH_RC:.rc=.o)
++cosine_chaos_LDADD = $(LDADD) $(ARCH_RC:.rc=.o)
+ 
+ # -I. is for the doom/ directory when building from top-level builddir
+ AM_CFLAGS = -I$(top_srcdir)/src -I$(top_srcdir)/src/doom -I.
