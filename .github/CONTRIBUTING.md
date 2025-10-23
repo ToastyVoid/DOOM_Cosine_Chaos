@@ -1,47 +1,16 @@
-Thanks for contributing to Chocolate Doom! Whatever your contribution,
-whether it's code or just a bug report, it's greatly appreciated.
+## THIS IS THE DOOM COSINE CHAOS!
 
-The project is governed by the
-[Contributor Covenant](http://contributor-covenant.org/version/1/4/)
-version 1.4. By contributing to the project you agree to abide by its
-terms. To report violations, please send an email to fraggle@gmail.com.
+DOOM Cosine Chaos aims to make the original vanilla DOOM become non-euclidean by modifying the `finesine` and `finetangent` tables in `src/tables.c`! I ACTUALLY made it and i'm happy, like very happy! Here are some stuff to know tho!
 
-### Reporting bugs
+### Reporting Bugs
+This port is a fork of another DOOM port called [chocolate-DOOM](https://github.com/chocolate-doom/chocolate-doom) which is licenced under GNU GPL-v2.0. And Chocolate-DOOM is a DOOM port that tries to recreate everything about the original vanilla DOOM that ran on DOS, even the bugs are recreated! But DOOM Cosine Chaos is a fork of it that makes DOOM ******_(ALMOST)_****** non-euclidean! Yeah, there will be many more bugs like enemies no-clipping or some stuff being closer than it should or more away than it is supposed to be or more, but that is just non-euclidean stuff, right?
 
-Before reporting a bug, it's worth checking if this really is a bug.
-Chocolate Doom's mission is to reproduce the Vanilla (DOS) versions of
-the Doom engine games, bugs and all. Check out the
-[NOT-BUGS](../NOT-BUGS.md) file for a list of common issues which aren't
-really bugs at all. You might also try searching [the GitHub issues
-list](https://github.com/chocolate-doom/chocolate-doom/issues) to see
-if your bug has already been reported.
-
-If you're confident that you've found a real bug (or even if you're
-not sure!) please go ahead and [file an issue on
-GitHub](https://github.com/chocolate-doom/chocolate-doom/issues/new).
-You'll need a GitHub account, but it's pretty easy to sign up.
-
-Please try to give as much information as possible:
-
-* What version of Chocolate Doom are you using? Check the title bar of
-  the window for the version number.
-
-* Chocolate Doom runs on many different operating systems (not just
-  Windows!). Please say which operating system and what version of it
-  you're using.
-
-* Please say which game you're playing (Doom 1, Doom 2, Heretic,
-  Hexen, Strife, etc.) and if you're using any fan-made WADs or mods,
-  please say which mods (and where they can be downloaded!). It helps
-  to give the full command line you're using to start the game.
-
-* Please mention if you have any special configuration you think may be
-  relevant, too.
 
 ### Feature requests
 
-Chocolate Doom is always open to new feature requests; however, please
-be aware that the project is designed around a deliberately limited
+DOOM Cosine Chaos is always open to new feature requests; however, please
+be aware that the project is designed around a deliberately limited (and
+absolutely unmodified, because i did not have enough time to do it)
 [philosophy](../PHILOSOPHY.md), and many features common in other source
 ports will not be accepted. Here are a few common requests which are
 often rejected:
@@ -54,14 +23,13 @@ often rejected:
 * Ability to play "No Rest For The Living", the expansion pack which
   comes with the XBLA / BFG Edition of Doom.
 
-If you're not sure whether your feature is in line with the project
-philosophy, don't worry - just ask anyway!
-To make a feature request, [file an issue on
-GitHub](https://github.com/chocolate-doom/chocolate-doom/issues/new).
+* Making this DOOM port thing non-euclidean (the non-euclidean stuff is a feature! Not a bug!)
+
+(I have no idea if i should modify the PHILOSOPHY file of Chocolate-DOOM).
 
 ### Bug fixes / code submission
 
-Thank you for contributing code to Chocolate Doom! Please check the
+Thank you for contributing code to DOOM Cosine Chaos! Please check the
 following guidelines before opening a pull request:
 
 * All code must be licensed under [the GNU General Public License,
@@ -70,32 +38,4 @@ following guidelines before opening a pull request:
   Be aware that by submitting your code to the project, you're agreeing
   to license it under the GPL.
 
-* Please follow the coding style guidelines described in the
-  [HACKING](../HACKING.md) file.
-
-* Please don't make unnecessary changes which just change formatting
-  without any actual change to program logic. While being consistent
-  is nice, such changes destroy the ability to use the `git blame`
-  command to see when code was last changed.
-
-* The guidelines given above in the "feature requests" section also
-  apply here. New features which aren't in line with the project
-  philosophy are likely to be rejected. If you're not sure, open a
-  feature request first and ask before you start implementing your
-  feature.
-
-* Follow the guidelines for [how to write a Git commit
-  message](http://chris.beams.io/posts/git-commit/). In short: the
-  first line should be a short summary; keep to an 80 column limit;
-  use the imperative mood ("fix bug X", rather than "fixed bug X" or
-  "fixing bug X"). If your change fixes a particular subsystem,
-  prefix the summary with that subsystem: eg. "doom: Fix bug X" or
-  "textscreen: Change size of X".
-
-* If you're making a change related to a bug, reference the GitHub
-  issue number in the commit message, eg. "This is a partial fix
-  for #646". This will link your commit into the issue comments. If
-  your change is a fix for the bug, put the word "fixes" before the
-  issue number to automatically close the issue once your change
-  is merged.
-
+* Please don't send me "fix this bug" emails because i'd be easily overwhelmed (unless i get people to help me).
