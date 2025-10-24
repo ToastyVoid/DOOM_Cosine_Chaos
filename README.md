@@ -12,3 +12,6 @@ DOOM Cosine Chaos has:
  * A accurate recreation of the original DOS game, but with non-euclidean stuff!
 
 You may find many similarities to Chocolate-DOOM tho!
+
+## HOW THE HELL DO I COMPILE?!?!?!?
+DONT YELL INTO YOUR COMPUTER SCREEN! I'll tell you how to compile this thing, first, i've made some automation scripts but they are only for Windows with MSYS2 MINGW64, and the automation script is called `dothejob.sh`, and it is designed to be executed inside MSYS2 MINGW64! And there are some comments in that script that you can uncomment if you need to! For linux, just check out [compiling chocolate-DOOM on Linux](https://www.chocolate-doom.org/wiki/index.php/Building_Chocolate_Doom_on_Debian)... (but we are supposed to compile DOOM Cosine Chaos, okay?)
